@@ -6,7 +6,7 @@ A working, official zlibrary domain must be used. These include 1lib.ch, singlel
 ## Logging in
 To create API requests using an account, provide a `remix-userid` header as well as a `remix-userkey` header
 ## POST requests
-The POST request body is in url encoded parameters, eg. `param1=value1&param2=value2`. Furthermore, the following request header is necessary: `Content-Type: application/x-www-form-urlencoded`
+The POST request body is in url encoded parameters, eg. `param1=value1&param2=value2`. Furthermore, the following request header is necessary: `Content-Type: application/x-www-form-urlencoded`. Arrays that are sent use the bracket notation, eg. `languages[]=german&languages[]=english&languages=french`
 
 # Known endpoints
     /eapi/book/most-popular (GET); query: switch-language
