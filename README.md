@@ -2,11 +2,11 @@
 Documentation of the zlibrary android app API
 # Notes
 ## Usage
-A working, official zlibrary domain must be used. These include 1lib.ch, singlelogin.me and loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion. Requests can be sent to the endpoints and POST parameters provided here. A user agent must be provided
+A working, official zlibrary domain must be used. These include 1lib.fr, singlelogin.me and loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion. Requests can be sent to the endpoints and POST parameters provided here. A user agent must be provided
 ## Logging in
 To create API requests using an account, provide a `remix-userid` header as well as a `remix-userkey` header. In some cases, it may also be necessary to provide the login as the cookies `remix_userid` and `remix_userkey`
 ## POST requests
-The POST request body is in url encoded parameters, eg. `param1=value1&param2=value2`. Furthermore, the following request header is necessary: `Content-Type: application/x-www-form-urlencoded`. Arrays that are sent use the bracket notation, eg. `languages[]=german&languages[]=english&languages=french`
+The POST request body is in url encoded parameters, eg. `param1=value1&param2=value2`. Furthermore, the following request header is necessary: `Content-Type: application/x-www-form-urlencoded`. Arrays that are sent use the bracket notation, eg. `languages[]=german&languages[]=english&languages[]=french`
 ## Downloading
 Due to recent changes, it is now necessary to use [personal zlibrary domains](https://www.bleepingcomputer.com/news/technology/z-library-now-has-secret-personal-domains-for-each-user/) to download books
 
