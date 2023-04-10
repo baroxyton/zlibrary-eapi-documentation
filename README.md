@@ -64,3 +64,6 @@ Due to recent changes, it is now necessary to use [personal zlibrary domains](ht
     /eapi/user/update (POST); body parameters: email, password, name, kindle_email
     
     /eapi/user/profile (GET)
+# Implementations
+- Python API for Z-library by bipinkrish: https://github.com/bipinkrish/Zlibrary-API
+- JS zlib-CLI by myself: https://github.com/baroxyton/zlibrary-CLI
