@@ -1,8 +1,8 @@
 # zlibrary-eapi-documentation
-Documentation of the zlibrary android app API
+Inofficial documentation of the zlibrary android app API
 # Notes
 ## Usage
-A working, official zlibrary domain must be used. These include 1lib.fr, singlelogin.me and loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion. Requests can be sent to the endpoints and POST parameters provided here. A user agent must be provided
+A working, official zlibrary domain must be used. These include 1lib.fr, singlelogin.me and loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion. Requests can be sent to the endpoints and POST parameters provided here. A user agent must be provided.
 ## Logging in
 To create API requests using an account, provide a `remix-userid` header as well as a `remix-userkey` header. In some cases, it may also be necessary to provide the login as the cookies `remix_userid` and `remix_userkey`
 ## POST requests
@@ -64,6 +64,7 @@ Due to recent changes, it is now necessary to use [personal zlibrary domains](ht
     /eapi/user/update (POST); body parameters: email, password, name, kindle_email
     
     /eapi/user/profile (GET)
-# Implementations
+# Usage Examples
 - Python API for Z-library by bipinkrish: https://github.com/bipinkrish/Zlibrary-API
+- zlib-extension for chrome by balldk: https://github.com/balldk/zlib-extension/
 - JS zlib-CLI by myself: https://github.com/baroxyton/zlibrary-CLI
